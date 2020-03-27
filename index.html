@@ -3,19 +3,20 @@
 
 <head>
     <title>Filmzoeker</title>
-
+    <link rel="stylesheet" href="index.css">
     <script defer src="Movies.js"></script>
     <script defer src="script.js"></script>
 </head>
 
 <body>
     <nav>
-        <input type="text" id="searchfield">
+        <input type="radio" id="alle" name="filter" value="alle" checked="checked"><label for="alle">Alle films</label>
         <input type="radio" id="nieuwste" name="filter" value="nieuwste"><label for="nieuwste">Nieuwste films</label>
         <input type="radio" id="avengers" name="filter" value="avengers"><label for="Avengers">Avengers films</label>
         <input type="radio" id="xmen" name="filter" value="xmen"><label for="X-men">X-men films</label>
         <input type="radio" id="princess" name="filter" value="princess"><label for="Princess">Princess films</label>
         <input type="radio" id="batman" name="filter" value="batman"><label for="Batman">Batman films</label>
+        <span id="search">Zoeken: <input type="text" id="searchfield"></span>
     </nav>
     <div>
         <ul id="Films">
@@ -31,8 +32,3 @@
 
 
 </html>
-
-<!-- <img src="https://m.media-amazon.com/images/M/MV5BZGIzNWYzN2YtMjcwYS00YjQ3LWI2NjMtOTNiYTUyYjE2MGNkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-        alt="Poster x-men">
-    <img src="https://m.media-amazon.com/images/M/MV5BZGIzNWYzN2YtMjcwYS00YjQ3LWI2NjMtOTNiYTUyYjE2MGNkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-        alt="Poster x-men"> -->

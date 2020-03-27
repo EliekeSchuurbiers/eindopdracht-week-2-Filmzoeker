@@ -23,6 +23,10 @@ const getIMDBlink = function (movie) {
     return newa;
 };
 
+document.getElementById("alle").addEventListener("change", function () {
+    addMoviesToDom(movies.Movies);
+});
+
 document.getElementById("nieuwste").addEventListener("change", function () {
     filterLatestMovies()
 });
